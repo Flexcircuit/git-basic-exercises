@@ -1,0 +1,175 @@
+    1  ls -lrh
+    2  pwd
+    3  ls
+    4  ls /data
+    5  ls /etc/perl
+    6  ls /
+    7  pwd
+    8  clear
+    9  pwd
+   10  mkdir Learning_unix
+   11  ls
+   12  cd Learning_unix
+   13  ls
+   14  mkdir Outer_directory
+   15  ls
+   16  cd Outer_directory
+   17  mkdir Inner_directory
+   18  cd Inner_directory
+   19  ls
+   20  cd /
+   21  cd home
+   22  cd flex
+   23  cd Learning_unix
+   24  cd ..
+   25  cd /
+   26  pwd
+   27  cd
+   28  cd ~
+   29  cd ~/Learning_unix
+   30  cd
+   31  cd ~/Learning_unix
+   32  ls -l
+   33  ls -R
+   34  ls -l -t -r
+   35  ls -lh
+   36  cd ~/Learning_unix/Outer_directory/
+   37  rmdir Inner_dircetory
+   38  rmdir Inner_directory
+   39  cd ..
+   40  rmdir Outer_directory
+   41  ls
+   42  cd ../
+   43  cd /home
+   44  ls
+   45  cd
+   46  ls
+   47  cd Learning_unix/
+   48  sudo dnf install git-all
+   49  sudo apt install git-all
+   50  git -V
+   51  git --version
+   52  sudo apt install git-all
+   53  cleaclear
+   54  clear
+   55  sudo apt-get install dh-autoreconf libcurl4-gnutls-dev libexpat1-dev   gettext libz-dev libssl-dev
+   56  $ sudo apt-get install asciidoc xmlto docbook2x
+   57  sudo apt-get install asciidoc xmlto docbook2x
+   58  clear
+   59  sudo apt update
+   60  sudo apt upgrade
+   61  git config --list --show-origin
+   62  git config --global user.name "Flex Circuit"
+   63  git config --global user.email fcircuit19@gmail.com
+   64  git config --global core.editor "code --wait"
+   65  git config --global init.defaultBranch main
+   66  git config --list
+   67  cd c:/Users/user/my_project
+   68  cd c:/Users/user
+   69  cd c:/Users
+   70  cd C:/
+   71  cd C:
+   72  clear
+   73  pwd
+   74  cd/home/flex
+   75  cd /home/flex
+   76  ls
+   77  mkdir my_project
+   78  ls
+   79  cd my_project
+   80  ls
+   81  pwd
+   82  clear
+   83  git init
+   84  git clone https://github.com/libgit2/libgit2
+   85  git status
+   86  ls
+   87  cd /libgit2
+   88  pwd
+   89  echo 'My Projec' >README
+   90  git status
+   91  git add README
+   92  git status
+   93  git add CONTRIBUTING.md
+   94  git status -s
+   95  cd ../../
+   96  cd /flex
+   97  ls
+   98  cd flex
+   99  pwd
+  100  clear
+  101  mkdir git-basic-exercises
+  102  ls
+  103  cd git-basic-exercises
+  104  ls
+  105  ls -a
+  106  git init
+  107  ls -a
+  108  git status
+  109  touch README.md
+  110  ls -a
+  111  git status
+  112  git log
+  113  git add README.md
+  114  git status
+  115  git log
+  116  clear
+  117  git status
+  118  git rm --cached README.md
+  119  git status
+  120  git add README.md
+  121  git commit -m "initial commit"
+  122  git log
+  123  q
+  124  git log
+  125  q
+  126  exit
+  127  pwd
+  128  cd /flex
+  129  cd /home/flex
+  130  ls
+  131  cd git-basic-exercises
+  132  LS
+  133  ls
+  134  nano README.md
+  135  cat README.md
+  136  git status
+  137  git add README.md
+  138  git status
+  139  git commit -m "second commit"
+  140  nano README.md
+  141  git status
+  142  git add
+  143  git add README.md
+  144  git status
+  145  git commit -m "third commit"
+  146  git log
+  147  git checkout 8b4c66082621fc84838896d6f1897015f5ae9d99
+  148  cat README.md
+  149  git checkout main
+  150  cat README.MD
+  151  cat README.md
+  152  clear
+  153  git branch
+  154  git log
+  155  clear
+  156  git branch milkshake-flavours
+  157  git branches
+  158  git branch
+  159  git checkout milshake-flavours
+  160  git checkout milkshake-flavours
+  161  git branch
+  162  nano milkshakes.md
+  163  cat milkshakes.md
+  164  git status
+  165  git add milkshakes.md
+  166  git commit -m "added initial flavours"
+  167  git log
+  168  git checkout main
+  169  git checkout -b history
+  170  git branch
+  171  git status
+  172  git log
+  173  clear
+  174  git status
+  175  history > history.txt
